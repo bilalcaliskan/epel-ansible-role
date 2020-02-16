@@ -1,0 +1,20 @@
+---
+
+galaxy_info:
+  author: bilalcaliskan
+  role_name: epel
+  description: Configuration role for Epel repo on Centos/Rhel
+  min_ansible_version: 2.4
+  galaxy_tags:
+    - configuration
+    - epel
+    - extras
+  license: "license (BSD, MIT)"
+  platforms:
+    - name: EL
+      versions:
+        - 7
+
+dependencies: []
+
+...

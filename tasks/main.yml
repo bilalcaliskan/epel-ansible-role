@@ -1,0 +1,16 @@
+---
+
+- name: Add EPEL repository
+  yum_repository:
+    name: epel
+    description: EPEL YUM repo
+    baseurl: "{{ epel_download_url }}"
+    gpgcheck: true
+    enabled: false
+
+- name: Ensure RPM public key is installed
+  rpm_key:
+    key: "{{ epel_public_key_url }}"
+    state: present
+    
+...
