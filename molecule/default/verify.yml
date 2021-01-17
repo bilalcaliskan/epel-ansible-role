@@ -7,6 +7,7 @@
       yum:
         name: redis
         state: present
+        update_cache: true
         enablerepo: epel
 
     - name: Remove redis package
