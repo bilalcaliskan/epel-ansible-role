@@ -1,0 +1,15 @@
+---
+
+- name: Verify play
+  hosts: all
+  tasks:
+    - name: Install redis from epel repository for testing
+      yum:
+        name: redis
+        state: present
+        enablerepo: epel
+
+    - name: Remove redis package
+      yum:
+        name: redis
+        state: absent
