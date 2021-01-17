@@ -12,5 +12,3 @@
   rpm_key:
     key: "{{ epel_public_key_url }}"
     state: present
-    
-...
