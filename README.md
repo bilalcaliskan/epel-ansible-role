@@ -1,6 +1,6 @@
 ## Epel Ansible Role
 
-[![CI](https://github.com/bilalcaliskan/remi-ansible-role/workflows/CI/badge.svg?event=push)](https://github.com/bilalcaliskan/remi-ansible-role/actions?query=workflow%3ACI)
+[![CI](https://github.com/bilalcaliskan/epel-ansible-role/workflows/CI/badge.svg?event=push)](https://github.com/bilalcaliskan/epel-ansible-role/actions?query=workflow%3ACI)
 
 Sets up Epel repository on RHEL/CentOS 7/8 servers.
 
