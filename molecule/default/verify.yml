@@ -1,9 +1,0 @@
----
-
-- name: Verify play
-  hosts: all
-  tasks:
-    ### TODO: add verify
-    - name: Debug
-      debug:
-        msg: Debug message

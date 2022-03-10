@@ -1,5 +1,4 @@
 ---
-
 galaxy_info:
   author: bilalcaliskan
   role_name: epel
@@ -13,6 +12,6 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
-        - 7
+        - "7"
 
 dependencies: []
